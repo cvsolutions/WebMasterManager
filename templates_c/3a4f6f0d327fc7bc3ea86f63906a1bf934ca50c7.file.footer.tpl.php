@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2013-01-31 23:10:05
+<?php /* Smarty version Smarty-3.1.12, created on 2013-01-31 23:27:51
          compiled from "./templates/footer.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1660336209510a977bd6e5a9-14451682%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '3a4f6f0d327fc7bc3ea86f63906a1bf934ca50c7' => 
     array (
       0 => './templates/footer.tpl',
-      1 => 1359670202,
+      1 => 1359671269,
       2 => 'file',
     ),
   ),
@@ -23,15 +23,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_510a977bdac820_63207134')) {function content_510a977bdac820_63207134($_smarty_tpl) {?>	<script src="http://code.jquery.com/jquery-latest.js"></script>
-	<script src="http://code.jquery.com/ui/1.9.1/jquery-ui.js"></script>
+<?php if ($_valid && !is_callable('content_510a977bdac820_63207134')) {function content_510a977bdac820_63207134($_smarty_tpl) {?>	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
 	<script src="<?php echo $_smarty_tpl->tpl_vars['config']->value['server'];?>
-/js/jquery.validationEngine-<?php echo $_smarty_tpl->tpl_vars['config']->value['language'];?>
-.js"></script>
+/js/bootstrap.min.js"></script>
 	<script src="<?php echo $_smarty_tpl->tpl_vars['config']->value['server'];?>
 /js/jquery.validationEngine.js"></script>
 	<script src="<?php echo $_smarty_tpl->tpl_vars['config']->value['server'];?>
-/js/bootstrap.min.js"></script>
+/js/jquery.validationEngine-<?php echo $_smarty_tpl->tpl_vars['config']->value['language'];?>
+.js"></script>
 	<script src="<?php echo $_smarty_tpl->tpl_vars['config']->value['server'];?>
 /js/common.js"></script>
 </body>

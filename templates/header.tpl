@@ -11,7 +11,7 @@
 	<link href="{$config.server}/css/bootstrap-common.css" rel="stylesheet" media="screen">
 	<link href="{$config.server}/css/validationEngine.jquery.css" rel="stylesheet" media="screen">
 	
-	<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css">
+	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/themes/base/jquery-ui.css">
 
 	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
 
