@@ -9,7 +9,7 @@
       <a class="brand" href="#">{$config.name}</a>
       <div class="nav-collapse collapse navbar-responsive-collapse">
         <ul class="nav">
-          <li class="{$navactive_1}"><a href="dashboard.php"><i class="icon-home"></i> {$language[1]}</a></li>
+          <li class="{$navactive_1}"><a href="dashboard.php"><i class="icon-home"></i> {$language.1}</a></li>
           <li class="{$navactive_2}"><a href="settings.php">Configurazione</a></li>
           <li class="dropdown {$navactive_3}">
             <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Domini & Hosting <b class="caret"></b></a>

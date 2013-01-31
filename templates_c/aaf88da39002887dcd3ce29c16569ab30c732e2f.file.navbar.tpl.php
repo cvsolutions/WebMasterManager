@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2013-01-31 23:04:19
+<?php /* Smarty version Smarty-3.1.12, created on 2013-01-31 23:10:59
          compiled from "./templates/navbar.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1134768680510a9791b12380-69838269%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'aaf88da39002887dcd3ce29c16569ab30c732e2f' => 
     array (
       0 => './templates/navbar.tpl',
-      1 => 1359669857,
+      1 => 1359670258,
       2 => 'file',
     ),
   ),
@@ -40,7 +40,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       <div class="nav-collapse collapse navbar-responsive-collapse">
         <ul class="nav">
           <li class="<?php echo $_smarty_tpl->tpl_vars['navactive_1']->value;?>
-"><a href="dashboard.php"><i class="icon-home"></i> <?php echo $_smarty_tpl->tpl_vars['language']->value[1];?>
+"><a href="dashboard.php"><i class="icon-home"></i> <?php echo $_smarty_tpl->tpl_vars['language']->value[14];?>
 </a></li>
           <li class="<?php echo $_smarty_tpl->tpl_vars['navactive_2']->value;?>
 "><a href="settings.php">Configurazione</a></li>
