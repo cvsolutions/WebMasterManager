@@ -17,6 +17,7 @@ try {
 
 	/** @var Smarty [PHP Template Engine] */
 	$Smarty = new Smarty();
+	$Smarty->assign('language', $Settings->loadLanguage());
 	$Smarty->assign('expiry', $Hosting->ShowDashboardHosting('ORDER BY expiry ASC', 10));
 	$Smarty->assign('registered', $Hosting->ShowDashboardHosting('ORDER BY registered DESC', 10));
 	$Smarty->assign('config', $config);

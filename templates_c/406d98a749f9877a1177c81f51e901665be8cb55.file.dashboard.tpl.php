@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2013-01-31 17:10:57
+<?php /* Smarty version Smarty-3.1.12, created on 2013-01-31 23:04:07
          compiled from "./templates/dashboard.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:72693126510a97917b2181-55768444%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '406d98a749f9877a1177c81f51e901665be8cb55' => 
     array (
       0 => './templates/dashboard.tpl',
-      1 => 1356260780,
+      1 => 1359669806,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.12',
+  'unifunc' => 'content_510a9791b065c9_72195044',
   'variables' => 
   array (
     'cnt_host' => 0,
@@ -27,8 +29,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'expiry' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.12',
-  'unifunc' => 'content_510a9791b065c9_72195044',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_510a9791b065c9_72195044')) {function content_510a9791b065c9_72195044($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include '/Users/concettovecchio/GitProject/WebMasterManager/library/smarty/plugins/modifier.replace.php';
 if (!is_callable('smarty_modifier_date_format')) include '/Users/concettovecchio/GitProject/WebMasterManager/library/smarty/plugins/modifier.date_format.php';

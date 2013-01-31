@@ -18,6 +18,7 @@ $ID     = trim($_GET['id']);
 $config['name']    = 'Webmaster Manager';
 $config['version'] = '1.0';
 $config['refresh'] = 1;
+$config['language'] = 'en';
 $config['server']  = sprintf('http://%s', $_SERVER['SERVER_NAME']);
 
 /** MySQL Connectors */
@@ -27,7 +28,6 @@ $config['connection']['pass'] = 'rootpass';
 
 /** Enable local login */
 $config['login']['enable'] = true;
-$config['login']['token']  = '';
 
 /** Type Hosting */
 $config['hosting'] = array(

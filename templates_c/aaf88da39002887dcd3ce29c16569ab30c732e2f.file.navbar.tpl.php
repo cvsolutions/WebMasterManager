@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2013-01-31 17:10:57
+<?php /* Smarty version Smarty-3.1.12, created on 2013-01-31 23:04:19
          compiled from "./templates/navbar.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1134768680510a9791b12380-69838269%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'aaf88da39002887dcd3ce29c16569ab30c732e2f' => 
     array (
       0 => './templates/navbar.tpl',
-      1 => 1356360691,
+      1 => 1359669857,
       2 => 'file',
     ),
   ),
@@ -15,16 +15,17 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.12',
+  'unifunc' => 'content_510a9791ba2059_73704300',
   'variables' => 
   array (
     'config' => 0,
     'navactive_1' => 0,
+    'language' => 0,
     'navactive_2' => 0,
     'navactive_3' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.12',
-  'unifunc' => 'content_510a9791ba2059_73704300',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_510a9791ba2059_73704300')) {function content_510a9791ba2059_73704300($_smarty_tpl) {?><div class="navbar">
   <div class="navbar-inner">
@@ -39,7 +40,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       <div class="nav-collapse collapse navbar-responsive-collapse">
         <ul class="nav">
           <li class="<?php echo $_smarty_tpl->tpl_vars['navactive_1']->value;?>
-"><a href="dashboard.php"><i class="icon-home"></i> Dashboard</a></li>
+"><a href="dashboard.php"><i class="icon-home"></i> <?php echo $_smarty_tpl->tpl_vars['language']->value[1];?>
+</a></li>
           <li class="<?php echo $_smarty_tpl->tpl_vars['navactive_2']->value;?>
 "><a href="settings.php">Configurazione</a></li>
           <li class="dropdown <?php echo $_smarty_tpl->tpl_vars['navactive_3']->value;?>

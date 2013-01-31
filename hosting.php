@@ -11,6 +11,7 @@ try {
 	/** @var Smarty [PHP Template Engine] */
 	$Smarty = new Smarty();
 	$Smarty->assign('config', $config);
+	$Smarty->assign('language', $Settings->loadLanguage());
 
 	/** @var WebMasterHosting [Info Hosting] */
 	$Hosting = new WebMasterHosting();

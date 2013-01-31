@@ -22,6 +22,7 @@ try {
 		/** @var Smarty [PHP Template Engine] */
 		$Smarty = new Smarty();
 		$Smarty->assign('config', $config);
+		$Smarty->assign('language', $Settings->loadLanguage());
 		$Smarty->display('index.tpl');
 		
 	} else {

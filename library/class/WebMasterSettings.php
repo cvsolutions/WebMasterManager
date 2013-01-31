@@ -72,6 +72,25 @@ class WebMasterSettings extends WebMasterManager
     }
 
     /**
+     * loadLanguage
+     * 
+     * @access public
+     *
+     * @return mixed Value.
+     */
+    function loadLanguage()
+    {
+        global $config;
+        $path = realpath(dirname(__FILE__) . '/../language/');
+        $fileName = sprintf('%s/%s.php', $path, $config['language']);
+        if(!is_readable($fileName))
+        {
+            throw new Exception('Language file Not found', 1);
+        }
+        return include_once $fileName;
+    }
+
+    /**
      * getSettings
      * 
      * @access public

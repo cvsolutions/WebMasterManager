@@ -18,6 +18,7 @@ try {
 	/** @var Smarty [PHP Template Engine] */
 	$Smarty = new Smarty();
 	$Smarty->assign('config', $config);
+	$Smarty->assign('language', $Settings->loadLanguage());
 	$Smarty->assign('row', $Settings->getSettings());
 	$Smarty->display('settings.tpl');
 	
